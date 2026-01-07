@@ -5,7 +5,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/New-portfolio/', // 👈 must match your GitHub repo name exactly
+  base: '/', //
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'), // 👈 this tells Vite what "@" means

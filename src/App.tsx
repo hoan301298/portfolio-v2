@@ -5,7 +5,7 @@ import NotFound from "./pages/NotFound";
 
 const App = () => (
     <ThemeProvider>
-      <BrowserRouter basename="/New-portfolio">
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />

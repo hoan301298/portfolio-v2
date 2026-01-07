@@ -14,7 +14,7 @@ interface PdfModalProps {
 
 const PdfModal = ({ isOpen, onClose, pdfUrl } : PdfModalProps) => {
     if (!isOpen) return null;
-    console.log(pdfUrl);
+    
     return (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50" onClick={onClose}>
             <div className="bg-white rounded-lg shadow-lg max-w-3xl w-full max-h-[90vh] overflow-hidden p-4 relative">

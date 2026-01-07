@@ -7,7 +7,7 @@ export const skillCategories = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Spring Boot", ".NET", "PostgreSQL", "MongoDB", "SparQL", "Express.js", "Nest.js"]
+    skills: ["Node.js", "Spring Boot", ".NET", "PostgreSQL", "MongoDB", "SparQL", "ExpressJS", "NestJS"]
   },
   {
     title: "DevOps & Tools",
@@ -15,13 +15,46 @@ export const skillCategories = [
   },
   {
     title: "Other",
-    skills: ["REST APIs", "Socket.IO", "Testing", "Agile", "System Design", "GraphQL", "IoT", "MQTT"]
+    skills: ["REST APIs", "BullMQ", "Jest", "Prometheus", "Redis", "GraphQL", "Jira", "Confluence", "MQTT"]
   }
 ];
 
 export const experiences = [
   {
-    title: "Software Developer Trainee, Connectivity & Instrumentation",
+    title: "Backend Developer Intern",
+    company: "Psyche's Royale Gaming ry",
+    location: "Finland (Remote)",
+    period: "Nov 2025 - Present",
+    description:
+      "Backend developer for ALT-Zone, a multiplayer mobile game project. Responsible for designing and developing scalable backend services using NestJS, building APIs for player interaction, real-time features, and game data processing.",
+
+    achievements: [
+      "Designed and developed RESTful APIs using NestJS to support multiplayer gameplay, player management, and in-game features.",
+      "Implemented Redis caching and MongoDB data models to improve performance and scalability for concurrent players.",
+      "Built background job processing using BullMQ for matchmaking, notifications, and game event handling.",
+      "Integrated Mosquitto MQTT broker for real-time messaging between game clients and backend services.",
+      "Applied validation, DTO schemas, and unit/integration testing modules to improve system reliability and data integrity.",
+      "Collaborated with frontend and game designers to deliver scalable backend solutions for mobile game users."
+    ],
+
+    technologies: [
+      "NestJS",
+      "TypeScript",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "Mosquitto MQTT",
+      "Jenkins",
+      "Docker",
+      "RESTful APIs",
+      "Validation Pipelines",
+      "Unit & Integration Testing",
+      "CI/CD",
+      "Linux"
+    ]
+  },
+  {
+    title: "Software Engineer Trainee, Connectivity & Instrumentation",
     company: "Metso Oy",
     location: "Espoo, Uusimaa, FI",
     period: "Apr 2025 - Aug 2025",
@@ -86,11 +119,11 @@ export const experiences = [
 
 export const projects = [
   {
-    title: "Healthcare Assistance Platform",
-    description: "A full-stack web application providing healthcare assistance with real-time chat and searching medical facilities on map, appointment booking, and patient-doctor interaction using React.js, Node.js, and Spring Boot.",
-    tech: ["MERN Stack", "JWT token", "Java Spring Boot", "Docker", "Google APIs", "Socket.IO", "Authentication", "HTML", "CSS", "Crypto-JS", "NextUI"],
+    title: "Healthcare Assistance",
+    description: "A full-stack web application providing healthcare assistance with real-time chat and searching medical facilities on map, appointment booking, and patient-doctor interaction using React TS, Node.js, and Spring Boot.",
+    tech: ["MERN Stack", "JWT token", "Java Spring Boot", "Docker", "Google APIs", "Socket.IO", "CSS", "Crypto-JS", "Tailwind CSS"],
     github: "https://github.com/hoan301298/Healthcare-Assistance/tree/main",
-    demo: "https://www.theseus.fi/handle/10024/861496"
+    demo: "https://healthcare-assistance.vercel.app/"
   },
   {
     title: "NASA Mission Control",
@@ -100,11 +133,21 @@ export const projects = [
     demo: "https://nasa-mission-control-fi.netlify.app/"
   },
   {
-    title: "Ekseli Spreadsheet",
-    description: "A school project developed in collaboration with Ekseli, where I designed and built a user-friendly interface that uses SPARQL queries to insert and manage data within Ekseli’s database server.",
-    tech: ["React", "TypeScript", "SparQL", "Dev Extreme", "Restful APIs"],
-    github: "https://dev.azure.com/e2000606/_git/SEP2023%20-%20Ekseli%201%20Spreadsheet",
-    demo: "https://www.youtube.com/watch?v=7fK3-RTNm1g"
+    title: "ALT-Zone Server",
+    description: "Scalable backend server for ALT-Zone, a multiplayer mobile game platform. Built with NestJS to handle player authentication, real-time game events, background job processing, and RESTful APIs for mobile clients.",
+    tech: [
+      "NestJS",
+      "TypeScript",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "Mosquitto MQTT",
+      "RESTful APIs",
+      "Docker",
+      "Jenkins"
+    ],
+    github: "https://github.com/Alt-Org/Altzone-Server",
+    demo: "https://altzone.fi/en"
   },
   {
     title: "User Story",

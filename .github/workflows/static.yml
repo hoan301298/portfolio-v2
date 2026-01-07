@@ -1,4 +1,3 @@
-# Deploy frontend (React/Vite/etc.) to GitHub Pages
 name: Deploy static content to Pages
 
 on:
