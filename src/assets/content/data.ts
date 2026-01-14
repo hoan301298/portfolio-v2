@@ -123,7 +123,7 @@ export const projects = [
     description: "A full-stack web application providing healthcare assistance with real-time chat and searching medical facilities on map, appointment booking, and patient-doctor interaction using React TS, Node.js, and Spring Boot.",
     tech: ["MERN Stack", "JWT token", "Java Spring Boot", "Docker", "Google APIs", "Socket.IO", "CSS", "Crypto-JS", "Tailwind CSS"],
     github: "https://github.com/hoan301298/Healthcare-Assistance/tree/main",
-    demo: "https://healthcare-assistance.vercel.app/"
+    demo: "https://healthcare-assistance.fly.dev/"
   },
   {
     title: "NASA Mission Control",
